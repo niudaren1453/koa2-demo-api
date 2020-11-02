@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "node": true
+    },
+    // "extends": "standard",
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+        "space-before-function-paren": 0, // 定义函数时前面要不要空格
+        "eqeqeq": [2, "always"], // 要求使用 === 和 !==
+        "semi": [2, "never"], // 要求或禁止使用分号代替 ASI 
+        "indent": [2, 4], // 文本缩进风格
+        "eol-last": 0 ,// 文本是否已单一换行符结束
+        "no-multi-spaces": "error", // 强制
+        "keyword-spacing": "error"  // keyword 前后需要空格
+    }
+}
